@@ -3,6 +3,8 @@
 
 <head>
 	<title>Portafolio Profesional - Jorge Alexander González Garcia</title>
+    <link rel="stylesheet" href="./styles/index_styles.css">
+
 </head>
 
 <body>
@@ -24,11 +26,69 @@
 
 	</nav>
 	<main>
-		<section> <!-- section = no recuerdo :P-->
+		<section id="bienvenida"> <!-- section = no recuerdo :P-->
 			<h2 id="portafolio">Este es mi portafoilo profesional</h2>
 			<img alt="Foto de perfil" src="https://images.pexels.com/photos/2071881/pexels-photo-2071881.jpeg" width="190" />
 		</section>
-	</main>
+        <section id="proyectos">
+            <h2>Mis proyectos:</h2>
+            <div class="lista_proyectos">
+                <article class="proyecto">
+                    <h3>sit amet.</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </article>
+                <article class="proyecto">
+                    <h3>m dolor si</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </article>
+                <article class="proyecto">
+                    <h3>Lorem ips</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </article>
+            </div>
+        <section id="competencias">
+            <h2>Competencias profesionales</h2>
+            <h3>Tecnologías y Lenguajes</h3>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>C#</li>
+                <li>C++</li>
+                <li>Rust</li>
+                <li>C</li>
+            </ul>
+            <h3>Dominio de habilidades en desarrollo web</h3>
+            <div>
+			<!--Gracias HTML5 por todo-->
+                <label >HTML</label>
+                <progress min="0" max="100" value="30">50%</progress>
+            </div>
+            <div>
+                <label >CSS</label>
+                <progress min="0" max="100" value="20">40%</progress>
+            </div>
+            <div>
+                <label >JavaScript</label>
+                <progress min="0" max="100" value="23">30%</progress>
+            </div>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, magnam vero temporibus dolor ducimus cum.</p>
+            <div class="input contactos">
+                <label>Nombre completo</label>
+                <input type="text" placeholder="Escribe tu Nombre" />
+            </div>
+            <div class="input contactos">
+                <label>Telefono</label>
+                <input type="text" placeholder="Escribe tu Telefono" />
+
+            </div>
+            <div class="contactos">
+            	<!--COMO SE CAMBIA EL TAMANIO DEL BOTTON AAA-->
+                <button id="sender">Enviar</button>
+            </div>
+
 	<footer>
 		<p>&copy; 2025 Todos los izquierdos, derechos y centrales reservados </p>
 	</footer>
